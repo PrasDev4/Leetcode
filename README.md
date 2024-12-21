@@ -49,16 +49,17 @@ Logistic Regression was chosen for its simplicity, interpretability, and efficie
    ```bash
    git clone https://github.com/YourUsername/Shipment-Delay-Prediction.git
    cd Shipment-Delay-Prediction
-### Install the dependencies:
+2. Install the dependencies:
 
 ```bash
 pip install -r requirements.txt
-Run the Flask app:
-
+3. Run the Flask app:
+```bash
 python app.py
-Usage Instructions
-Input Format
 
+###Usage Instructions
+
+Input Format
 Send a POST request to the /predict endpoint with the following JSON structure:
 {
     "Origin": "Delhi",
@@ -71,8 +72,8 @@ Send a POST request to the /predict endpoint with the following JSON structure:
     "Month": 12,
     "Delivery Time": 48
 }
-Output Format
 
+Output Format
 The API returns a JSON response:
 {
     "Delay": "Yes"
