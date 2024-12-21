@@ -60,18 +60,19 @@ Logistic Regression was chosen for its simplicity, interpretability, and efficie
 
 Input Format
 Send a POST request to the /predict endpoint with the following JSON structure:
-    ```bash
-    {
-        "Origin": "Delhi",
-        "Destination": "Mumbai",
-        "Distance (km)": 1400,
-        "Vehicle Type": "Truck",
-        "Weather Conditions": "Rain",
-        "Traffic Conditions": "Moderate",
-        "Day of Week": 3,
-        "Month": 12,
-        "Delivery Time": 48
-    }
+  ```bash
+{
+    "Origin": "Delhi",
+    "Destination": "Mumbai",
+    "Distance (km)": 1400,
+    "Vehicle Type": "Truck",
+    "Weather Conditions": "Rain",
+    "Traffic Conditions": "Moderate",
+    "Day of Week": 3,
+    "Month": 12,
+    "Delivery Time": 48
+}
+
 
 Output Format
 The API returns a JSON response:
